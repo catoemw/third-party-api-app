@@ -44,9 +44,7 @@
 /* 0 */
 /***/ function(module, exports) {
 
-	function app () {
-
-	}
+	function app() {}
 
 	app();
 
