@@ -1,0 +1,52 @@
+html {
+	text-transform: uppercase;
+	font-size: 2vh;
+	font-family: 'Times New Roman';
+	letter-spacing: .2rem;
+	line-height: 1.5rem;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+section {
+	display: flex;
+	/*flex-direction: row;*/
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: space-around;
+	padding: 2rem;
+}
+
+img {
+	width: 100%;
+	opacity: 1;
+}
+
+img:hover {
+	opacity: .9;
+}
+
+section > div {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	/*flex-basis: 200px;*/
+	padding: 1rem;
+	border: 1px solid #fff;
+	margin: 1rem 1rem;
+	box-shadow: 5px 5px 15px 5px #ccc;
+}
+
+h3,
+h4 {
+	margin: 0;
+	padding: .5rem 1rem .5rem 1rem;
+}
+
+h3 {
+	margin-top: 1rem;
+}
